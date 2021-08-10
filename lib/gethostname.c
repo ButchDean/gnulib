@@ -84,7 +84,14 @@ gethostname (char *name, size_t len)
 
 #include "sockets.h"
 
-#undef gethostname
+//#undef gethostname
+
+int
+gethostname (char *name, size_t namelen)
+{
+  return 0;
+}
+
 
 int
 rpl_gethostname (char *name, size_t len)
