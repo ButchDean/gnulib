@@ -7,3 +7,6 @@ allsnippets.tmp
 amsnippet.tmp
 testdir*
 build
+aclocal.m4
+autom4te.cache
+configure
